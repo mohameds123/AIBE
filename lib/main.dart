@@ -16,7 +16,7 @@ import 'companats/file_companates.dart';
 import 'modules/login_screen/cubit/cubit.dart';
 import 'modules/register_screen/registerscreen.dart';
 import 'observer.dart';
-
+//muhammed rezk
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp().then((value) => {
