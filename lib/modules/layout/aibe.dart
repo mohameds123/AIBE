@@ -1,3 +1,4 @@
+import 'package:cars_shopping/modules/academic/academic_screen.dart';
 import 'package:cars_shopping/project_department.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hex_color/flutter_hex_color.dart';
@@ -111,7 +112,9 @@ class AIBELayOut extends StatelessWidget {
             SizedBox(height: 16.0,),
             Center(
               child: MaterialButton(
-                onPressed: (){},
+                onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AcademicScreen()));
+                },
                 child: Container(
                     width: 250.0,
                     height: 200.0,
@@ -154,6 +157,7 @@ class AIBELayOut extends StatelessWidget {
                 ),
               ),
             ),
+
           ],
         ),
       ),

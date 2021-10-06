@@ -19,6 +19,7 @@ import 'observer.dart';
 //muhammed rezk
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp().then((value) => {
     print('firebase initialized successfully')
   }).catchError((error){
