@@ -12,7 +12,7 @@ class AcademicScreen extends StatelessWidget {
         title: Text(
           'Academic Fields',
           style: TextStyle(
-            fontSize: 25.0,
+            fontSize: 20.0,
           ),
         ),
       ),

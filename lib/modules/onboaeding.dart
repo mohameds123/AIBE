@@ -28,6 +28,11 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   List<BoardingModel> boarding =
   [
     BoardingModel(
+        image: 'images/x13.jpg',
+        title: '.',
+        body: '.'
+    ),
+    BoardingModel(
         image: 'images/x.png',
         title: 'What is AIBE?',
         body: 'AIBE will be the world where the students can get a real business atmosphere and learn in order to improve themselves and their mindset,\n to become all they can, and to realize their inner golden potential,\n through our two tracks and providing training opportunities and visiting prestigious successful companies to train them how to innovate a Project and implement it in the real local and international market \n'
@@ -144,7 +149,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     {
                       if(isLast)
                       {
-                        submit();
+                        Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context)=>LoginScreen(),
+                      ),
+                  );
                       }
                     }
                     boardcontroller.nextPage(
