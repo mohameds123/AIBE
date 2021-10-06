@@ -53,7 +53,6 @@ class AcademicScreen extends StatelessWidget {
             Center(
               child: MaterialButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AcademicScreen()));
                 },
                 child: Container(
                     width: 250.0,
@@ -101,7 +100,6 @@ class AcademicScreen extends StatelessWidget {
             Center(
               child: MaterialButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AcademicScreen()));
                 },
                 child: Container(
                     width: 250.0,
@@ -149,7 +147,6 @@ class AcademicScreen extends StatelessWidget {
             Center(
               child: MaterialButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AcademicScreen()));
                 },
                 child: Container(
                     width: 250.0,
@@ -197,7 +194,6 @@ class AcademicScreen extends StatelessWidget {
             Center(
               child: MaterialButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AcademicScreen()));
                 },
                 child: Container(
                     width: 250.0,
